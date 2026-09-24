@@ -1,7 +1,6 @@
 # site properties and page defaults
-title: nairlabsite
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+title: Nair Laboratory at William & Mary
+subtitle: Cancer invasion and metastasis
 header: images/lungmet1.png
 footer: images/wm campus 2.jpeg
 proofer: false
@@ -11,7 +10,6 @@ links:
   email: contact@nairlabsite.com
   orcid: 0000-0001-5875-4743
   google-scholar: 7KGb9rAAAAAJ
-  github: nairlabsite
 
 
 ### jekyll settings
