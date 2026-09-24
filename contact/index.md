@@ -1,77 +1,50 @@
 ---
 title: Contact
 nav:
-  order: 5
+  order: 6
   tooltip: Email, address, and location
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Nair Laboratory
+
+**Department of Applied Science** <br>
+**School of Computing, Data Sciences & Physics** <br>
+**William & Mary**  
+Williamsburg, Virginia
+
+### Contact
+
+**Prof. Praful Nair**  
+Assistant Professor, Department of Applied Science 
+
+**Office:** Integrated Science Center 3, Room 0279  
+**Lab:** Integrated Science Center 3, Room 0243
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="pnair@wm.edu"
+  link="pnair@wm.edu"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="757-221-1518"
+  link="+1-757-221-1518"
 %}
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://maps.app.goo.gl/4G8sNx9HHKtHe69G8"
 %}
 
-{% include section.html %}
-
-{% capture col1 %}
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/isc-3-rear-entrance-landrum-480px.jpg"  
 %}
 
-{% endcapture %}
 
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}

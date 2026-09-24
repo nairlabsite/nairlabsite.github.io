@@ -1,5 +1,5 @@
 <div
-  class="feature"
+  class="feature{% if include.large %} feature-large{% endif %}"
   {% if include.flip %}
     data-flip
   {% endif %}

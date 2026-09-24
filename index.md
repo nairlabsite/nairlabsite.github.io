@@ -1,35 +1,57 @@
 ---
+title: Home
+
+nav:
+  order: 1
+  tooltip: Nair Laboratory home
 ---
 
-# Lab Website Template
+<p style="text-align: center; font-size: 1.5rem; font-weight: 500;">
+  NAIR LABORATORY <br> 
+  Department of Applied Science | William &amp; Mary
+</p>
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+{% capture text %}
+
+Cancer metastasis - the spread of cancer cells from the primary tumor to distant organs - causes the vast majority of cancer-related deaths. Thus, developing effective therapies that limit or prevent metastatic spread is critical to improving patient survival. We study how epigenetic factors (which regulate gene activity without changing the DNA sequence) and biophysical factors (such as the stiffness of the environment surrounding cells) affect how cancer cells move and behave. 
+
+We work at the interface of bioengineering, cancer biology, and pre-clinical animal models. By understanding what controls cancer cell movement, we hope to develop new treatments that can slow or stop cancer from spreading to other parts of the body. 
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/0. General metastasis.png"
+  text=text
+  flip=true
+  large=true
+%}
 
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  link="research"
+  text="Explore Our Research"
+  icon="fa-solid fa-arrow-right"
 %}
 {%
   include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
+  link="team"
+  text="Meet the Lab"
+  icon="fa-solid fa-users"
 %}
 
 {% include section.html %}
 
-## Highlights
+## Research
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Large-scale cancer datasets provide a powerful resource for discovering genes that enable cancer to spread. We use bioinformatics to identify promising candidates and experimentally validate their roles in cancer progression.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="Learn more"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -39,20 +61,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/1. tcga identification 2.png"
   link="research"
-  title="Our Research"
+  title="Bioinformatic Discovery of Metastatic Drivers"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Epigenetic factors regulate gene activity and can profoundly influence how cancer cells grow, move, and spread. We investigate how these regulators control cell migration and metastasis to identify new mechanisms and therapeutic vulnerabilities.
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="research"
+  text="Learn more"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -62,22 +84,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  image="images/2. epigenetics in cancer progression.png"
+  link="research"
+  title="Epigenetics & Cancer Progression"
   flip=true
-  style="bare"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Cancer cells experience physical forces as they interact with their surrounding environment. We study how these biophysical cues influence epigenetic regulation, cell behavior, and metastatic progression.
 
 {%
   include button.html
-  link="team"
-  text="Meet our team"
+  link="research"
+  text="Learn more"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -87,8 +108,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
+  image="images/3. biophysics of epigenetics.png"
+  link="research"
+  title="Biophysics & Epigenetics"
   text=text
+%}
+
+{% include section.html %}
+
+## Join the Lab
+
+If you are interested in our work and are considering joining us, please reach out to Prof. Nair.
+
+{%
+  include button.html
+  link="join"
+  text="Join the Lab"
+  icon="fa-solid fa-arrow-right"
 %}

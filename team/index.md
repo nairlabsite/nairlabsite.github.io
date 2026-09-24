@@ -1,35 +1,28 @@
 ---
-title: Team
+title: People
+
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Meet our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %} People
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Principal Investigator
 
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 
 {% include section.html %}
 
-{% capture content %}
+## Lab Members
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}
 
-{% endcapture %}
+**Opportunities for graduate (Masters and PhD) students**
+Students interested in joining our research team are encouraged to contact Prof. Nair directly to discuss available opportunities, the application process, and program requirements.
 
-{% include grid.html style="square" content=content %}
+**Opportunities for undergraduate students**
+Students interested in joining the lab (particularly juniors and seniors) are encouraged to email Prof. Nair or visit his office, to learn more about current research projects and available opportunities.
