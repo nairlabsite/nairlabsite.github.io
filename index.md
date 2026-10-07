@@ -118,7 +118,7 @@ Cancer cells experience physical forces as they interact with their surrounding 
 
 ## Join the Lab
 
-If you are interested in our work and are considering joining us, please reach out to Prof. Nair.
+If you are interested in our work and are considering joining us, please reach out to Prof. Praful Nair.
 
 {%
   include button.html
