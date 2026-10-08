@@ -19,7 +19,6 @@ nav:
 
 ## Lab Members
 
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}
 
 ## Join Our Team
 
