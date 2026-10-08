@@ -17,8 +17,6 @@ nav:
 
 {% include section.html %}
 
-## Lab Members
-
 
 ## Join Our Team
 
