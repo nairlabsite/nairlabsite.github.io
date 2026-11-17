@@ -118,7 +118,7 @@ Cancer cells experience physical forces as they interact with their surrounding 
 
 ## Join the Lab
 
-If you are interested in our work and are considering joining us, please reach out to Prof. Praful Nair.
+We are recruiting a fully funded PhD student to join the Nair Laboratory in Fall 2027. Click below to learn more.
 
 {%
   include button.html
