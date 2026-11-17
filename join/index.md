@@ -26,7 +26,7 @@ Applicants with backgrounds in biology, bioengineering, molecular and cellular b
 
 Interested candidates should contact **Prof. Praful Nair at pnair@wm.edu** with a CV and a brief description of their research background, interests, and reasons for pursuing a PhD in the Nair Laboratory.
 
----
+
 
 ## Other Opportunities
 
